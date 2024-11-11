@@ -1,0 +1,146 @@
+@media (min-width: 320px) and (max-width: 800px) {
+	.container {
+		margin: 0 3%;
+	}
+
+	.main-nav .container {
+		grid-template-columns: 1fr;
+	}
+
+	.main-nav {
+		position: absolute;
+		left: -300px;
+		top: 0;
+		z-index: 999;
+		width: 280px;
+		height: 100vh;
+		background-color: #fff;
+		transition: 0.2s;
+		box-shadow: 2px 0 20px 0 #333;
+	}
+
+	.main-logo-m img {
+		height: 6vh;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	.hamburger {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	#nav_check:checked ~ .main-nav {
+		left: 0;
+	}
+
+	.mobile-navbar {
+		padding: 1rem;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.nav-links {
+		display: block;
+		margin-top: 2rem;
+	}
+
+	.links a:link {
+		font-size: 1.8rem;
+		padding: 1.8rem .8rem;
+		display: inline-block;
+	}
+
+	.showcase .container,
+	.about-me .container,
+	.skills .container,
+	.main-footer .container,
+	.project-website-cards .container,
+	.screenshots .container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.showcase__content_hello {
+		font-size: 4rem;
+	}
+
+	.showcase__content_name {
+		font-size: 4.5rem;
+	}
+
+	.resp {
+		flex-direction: column-reverse;
+    	align-content: center;
+    	flex-wrap: wrap;
+	}
+
+	.about-me {
+		margin-top: 1rem;
+	}
+
+	.about-me__image img,
+	.showcase__image img{
+		height: 40vh;
+	}
+
+	.about-me__project-count__count {
+		font-weight: 800;
+	}
+
+	.projects .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.main-footer__container-1:nth-child(2) {
+		display: none;
+	}
+
+	.project-showcase__title {
+		font-size: 2rem;
+	}
+
+	.screenshots__page-name {
+		font-size: 1.2rem;
+	}
+
+	.screenshots-app .container img {
+		height: 20vh;
+	}
+
+	.mobile-nav {
+		display: inline-block;
+		position: sticky;
+		top: 92%;
+		right: 0;
+		left: 0;
+		padding: .9rem;
+		background-color: #fff;
+		width: 100%;
+		box-shadow: 5px 2px 5px #333;
+	}
+
+	.mobile-nav .mobile-nav__links {
+		justify-content: space-between;
+	}
+
+	.mobile-nav__links .m-links a:link,
+	.mobile-nav__links .m-links a:visited {
+		color: #333;
+		font-weight: bolder;
+		font-size: 1rem;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mobile-nav__links img {
+		height: 5vh;
+	}
+
+	.mobile-nav__links a .m-link__name {
+		font-weight: bolder;
+	}
+
+	.main-logo-m {
+		display: block;
+	}
+}

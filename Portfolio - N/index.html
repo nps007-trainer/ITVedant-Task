@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#6c63ff">
+	<title>John Doe</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<link rel="icon" href="images/logo.png">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet" media="all">
+</head>
+<body>
+	<!-- Header Starts here -->
+	<header class="main-header" id="main-header">
+		<input type="checkbox" id="nav_check" hidden>
+		
+		<nav class="main-nav">
+			<div class="container d-grid">
+				<div class="main-logo">
+					<img src="images/logo.png" alt="Webisite Logo" class="img-responsive">
+				</div>
+				<ul class="nav-links d-flex">
+					<li class="links current-link"><a href="/index.html#footer ">Home</a></li>
+					<li class="links"><a href="#about-me">About Me</a></li>
+					<li class="links"><a href="#skills">Skills</a></li>
+					<li class="links"><a href="#qualification">Qualification</a></li>
+					<li class="links"><a href="#projects">Projects</a></li>
+					<li class="links"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="mobile-navbar d-grid">
+			<div class="main-logo-m d-flex">
+				<img src="images/logo.png" alt="Website Logo" class="img-responsive">
+			</div>
+			<label for="nav_check" class="hamburger d-flex">
+				<div></div>
+				<div></div>
+				<div></div>
+			</label>
+		</div>
+	</header>
+	<!-- Header Ends here -->
+
+	<div class="showcase">
+		<div class="container d-grid">
+			<div class="showcase__image wow slideInLeft">
+				<img src="images/showcase.png" alt="This is an image of creating website" class="img-responsive">
+			</div>
+			<div class="showcase__content d-flex wow fadeInRight">
+				<h2 class="showcase__content_hello">Hello<span class="grey-color">,</span></h2>
+				<h1 class="showcase__content_name">I am <span class="highlight">John Doe</span></h1>
+				<h3 class="showcase__content_subtitle p-y-1">Student of Masters In AI</h3>
+				<p class="showcase__content_info p-y-1">Currently pursuing a Masters of Artifical Inteligence. High level of web design and development knowledge</p>
+				<p><a href="#" download="MyResume" class="primary-button m-y-1">Download CV</a></p>
+			</div>
+		</div>
+	</div>
+ 
+	<div class="about-me p-y-2" id="about-me">
+		<h2 class="heading-1">About Me</h2>
+		<div class="container d-grid">
+			<div class="about-me__image wow slideInLeft">
+				<img src="images/about-me-rev.png" alt="about me image" class="img-responsive">
+			</div>
+			<div class="about-me__content d-flex wow slideInRight">
+				<p class="about-me__content__info p-y-1">Hello, my name is John Doe, and I am a student at Amity University. Currently pursuing a Masters In Artifical Inteligence. I enjoy creating desktop apps and designing Web pages. Developed a variety of projects using HTML5 and CSS3 </p>
+				<div class="about-me__project-count d-flex m-y-1">
+					<div class="about-me__project-count__count-1">
+						<h3 class="about-me__project-count__count d-flex p-y-1">10 +</h3>
+						<h4 class="about-me__project-count__title">Projects Completed</h4>
+					</div>
+					<div class="about-me__project-count__count-1">
+						<h3 class="about-me__project-count__count d-flex p-y-1">01</h3>
+						<h4 class="about-me__project-count__title">Project Working</h4>
+					</div>
+				</div>
+				<p><a href="#" download="resume" class="primary-button">Download CV</a></p>
+			</div>
+		</div>
+	</div>
+		
+	<div class="skills" id="skills">
+		<h2 class="heading-1 p-y-1">Technical Skills</h2>
+		<div class="container d-grid m-y-1">
+			<div class="skills__card-1">
+				<div class="skills__card-1__image">
+					<img src="images/web-development.svg" alt="web development icon" class="img-responsive">
+				</div>
+				<h2 class="skills__card-1__title p-y-2">Front-End Technologies</h2>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">HTML</h4>
+					<div class="box-100 box">
+						<div class="box-70 progress-bar-70 box">
+							<h5 class="skills__percentage-text">70%</h5>
+						</div>
+					</div>
+				</div>
+				<div class="skills__frontend p-y-2">
+					<h4 class="skills__skill-name p-y-1">CSS3</h4>
+					<div class="box-100 box">
+						<div class="box-60 progress-bar-60 box">
+							<h5 class="skills__percentage-text">60%</h5>
+						</div>
+					</div>
+				</div>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">Javascript</h4>
+					<div class="box-100 box">
+						<div class="box-50 progress-bar-50 box">
+							<h5 class="skills__percentage-text">50%</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__card-1">
+				<div class="skills__card-1__image">
+					<img src="images/backend.svg" alt="coding icon" class="img-responsive">
+				</div>
+				<h2 class="skills__card-1__title p-y-2">Back-End Technologies</h2>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">Spring Boot</h4>
+					<div class="box-100 box">
+						<div class="box-70 progress-bar-70 box">
+							<h5 class="skills__percentage-text">70%</h5>
+						</div>
+					</div>
+				</div>
+				<div class="skills__frontend p-y-2">
+					<h4 class="skills__skill-name p-y-1">Java</h4>
+					<div class="box-100 box">
+						<div class="box-60 progress-bar-60 box">
+							<h5 class="skills__percentage-text">60%</h5>
+						</div>
+					</div>
+				</div>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">Python</h4>
+					<div class="box-100 box">
+						<div class="box-50 progress-bar-50 box">
+							<h5 class="skills__percentage-text">50%</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__card-1">
+				<div class="skills__card-1__image">
+					<img src="images/web-design.svg" alt="coding icon" class="img-responsive">
+				</div>
+				<h2 class="skills__card-1__title p-y-1">Data Analytics</h2>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">Tableau</h4>
+					<div class="box-100 box">
+						<div class="box-70 progress-bar-70 box">
+							<h5 class="skills__percentage-text">70%</h5>
+						</div>
+					</div>
+				</div>
+				<div class="skills__frontend p-y-1">
+					<h4 class="skills__skill-name p-y-1">Power BI</h4>
+					<div class="box-100 box">
+						<div class="box-60 progress-bar-60 box">
+							<h5 class="skills__percentage-text">60%</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__card-1">
+				<div class="skills__card-1__image">
+					<img src="images/database.svg" alt="coding icon" class="img-responsive">
+				</div>
+				<h2 class="skills__card-1__title p-y-1">Database</h2>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">MY SQL</h4>
+					<div class="box-100 box">
+						<div class="box-40 progress-bar-40 box">
+							<h5 class="skills__percentage-text">40%</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__card-1">
+				<div class="skills__card-1__image">
+					<img src="images/webpage.svg" alt="coding icon" class="img-responsive">
+				</div>
+				<h2 class="skills__card-1__title p-y-1">Framework</h2>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">Spring Boot- Hibernate</h4>
+					<div class="box-100 box">
+						<div class="box-50 progress-bar-50 box">
+							<h5 class="skills__percentage-text">50%</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__card-1">
+				<div class="skills__card-1__image">
+					<img src="images/tools.svg" alt="coding icon" class="img-responsive">
+				</div>
+				<h2 class="skills__card-1__title p-y-1">Tools</h2>
+				<div class="skills__frontend">
+					<h4 class="skills__skill-name p-y-1">GIT</h4>
+					<div class="box-100 box">
+						<div class="box-40 progress-bar-40 box">
+							<h5 class="skills__percentage-text">40%</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+
+	<div class="qualification m-y-1" id="qualification">
+		<h2 class="heading-1 p-y-2">Qualification</h2>
+		<div class="container">
+
+			<div class="qualification__content">
+				<div class="qualification__data">
+					<div class="wow slideInLeft">
+						<h2 class="qualification__container-title">Bachelor of Science in information technology</h2>
+						<h3 class="qualification__container-subtitle p-y-1">Harvard University</h3>
+						<h4 class="qualification__container-date">2023</h4>
+					</div>
+					<div>
+						<span class="qualification__line"></span>
+					</div>
+				</div>
+
+				<div class="qualification__data">
+					<div></div>
+
+					<div>
+						<span class="qualification__line"></span>
+					</div>
+					<div class="wow slideInRight">
+						<h2 class="qualification__container-title">Higher Secondary School Certificate in Commerce</h2>
+						<h3 class="qualification__container-subtitle p-y-1">Signature School</h3>
+						<h4 class="qualification__container-date">2020</h4>
+					</div>
+				</div>
+
+				<div class="qualification__data">
+					<div class="wow slideInLeft">
+						<h2 class="qualification__container-title">Secondary School Certificate.</h2>
+						<h3 class="qualification__container-subtitle p-y-1">Tesla STEM High School</h3>
+						<h4 class="qualification__container-date">2019</h4>
+					</div>
+					<div>
+						<span class="qualification__line"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="projects m-y-1" id="projects">
+		<h2 class="heading-1 m-y-1">Projects</h2>
+		<div class="container d-grid">
+			<div class="projects__card wow slideInLeft">
+				<div class="projects__card__image">
+					<img src="images/sw1.png" alt="static website image" class="img-responsive">
+				</div>
+				<div class="projects__card__content">
+					<h2 class="projects__card__content__title p-y-2">Static Websites</h2>
+					<p><a href="StaticWebsite.html" class="sec-button">Take a Look</a></p>
+				</div>
+			</div>
+			<div class="projects__card wow slideInLeft">
+				<div class="projects__card__image">
+					<img src="images/pdapp.png" alt="python desktop app image" class="img-responsive">
+				</div>
+				<div class="projects__card__content">
+					<h2 class="projects__card__content__title p-y-2">Python Desktop App</h2>
+					<p><a href="desktop.html" class="sec-button">Take a Look</a></p>
+				</div>
+			</div>
+			<div class="projects__card wow slideInRight">
+				<div class="projects__card__image">
+					<img src="images/dw.png" alt="dynamic website image" class="img-responsive">
+				</div>
+				<div class="projects__card__content">
+					<h2 class="projects__card__content__title p-y-2">Dynamic Websites</h2>
+					<p><a href="dynamic.html" class="sec-button">Take a Look</a></p>
+				</div>
+			</div>
+			<div class="projects__card wow slideInRight">
+				<div class="projects__card__image">
+					<img src="images/dataanalytics.png" alt="data analytics projects image" class="img-responsive">
+				</div>
+				<div class="projects__card__content">
+					<h2 class="projects__card__content__title p-y-2">Data Analytics</h2>
+					<p><a href="dataanalytics.html" class="sec-button">Take a Look</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- CONTACT SECTION STARTS -->
+    <section class="contact mx-3" id="contact">
+        <div class="container">
+            <h3 class="heading-1 p-y-2">Let's Connect</h3>
+            <div class="contact-container d-grid">
+                <div class="contact-container__form items-center d-grid">
+                    <form id="contactForm">
+                        <div class="text-field-container">
+                            <input type="text" name="fname" id="fname" placeholder="First Name" class="text-field">
+                            <span id="firstNameError" class="error"></span>
+                        </div>
+
+                        <div class="text-field-container">
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" class="text-field">
+                            <span id="lastNameError" class="error"></span>
+                        </div>
+
+                        <div class="text-field-container">
+                            <input type="email" name="email" id="email" placeholder="Email" class="text-field">
+                            <span id="emailError" class="error"></span>
+                        </div>
+
+                        <div class="text-field-container">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" class="text-field">
+                            <span id="subjectError" class="error"></span>
+                        </div>
+                        <div class="text-field-container">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" class="text-field"></textarea>
+                            <span id="messageError" class="error"></span>
+                        </div>
+                        <button class="sec-button" type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-container__image">
+                    <img src="./images/showcase.png" alt="user typing" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION ENDS -->
+
+	<footer class="main-footer" id="footer">
+		<div class="container d-grid">
+			<div class="main-footer__container-1">
+				<h3 class="main-footer__container-1__title">Masters Student In AI</h3>
+				<h4 class="main-footer__container-1__subtitle p-y-1">John Doe</h4>
+			</div>
+			<div class="main-footer__container-1">
+				<h3 class="main-footer__container-1__title">Links</h3>
+				<ul class="footer-nav-links d-flex p-y-1">
+					<li class="links"><a href="#">Home</a></li>
+					<li class="links"><a href="#about-me">About Me</a></li>
+					<li class="links"><a href="#">Skills</a></li>
+					<li class="links"><a href="#">Qualification</a></li>
+					<li class="links"><a href="#">Projects</a></li>
+					<li class="links"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="main-footer__container-1">
+				<h3 class="main-footer__container-1__title">Contact me</h3>
+				<h4 class="main-footer__container-1__subtitle p-y-1">
+					<a href="mailto:johndoe@gmail.com">Click to mail</a>
+				</h4>
+			</div>
+		</div>
+		<hr>
+		<h3 class="footer-rights p-y-2 d-flex">All rights are reserved to Nandani</h3>
+	</footer>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/validations.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript">
+        new WOW().init();
+    </script>
+</body>
+</html>
